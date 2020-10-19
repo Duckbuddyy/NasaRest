@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/primaryColor"
+    app:cardCornerRadius="@dimen/cardview_border_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/dialog_filter_width"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dialog_filter_padding">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/camera_filter"
+            android:textColor="@color/secondaryDarkColor"
+            android:textSize="@dimen/dialog_filter_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="@dimen/dialog_filter_radio_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio_button_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_all" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_fhaz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_fhaz" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_rhaz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_rhaz" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_mast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_mast" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_chemcam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_chemcam" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_mahli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_mahli" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_mardi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_mardi" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_navcam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_navcam" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_pancam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_pancam" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_minities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera_minities" />
+
+            </RadioGroup>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/filterButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/button_filter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+            app:layout_constraintStart_toStartOf="@+id/scrollView2"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

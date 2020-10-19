@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_height">250dp</dimen>
+    <dimen name="cardview_image_height">200dp</dimen>
+    <dimen name="cardview_border_radius">12dp</dimen>
+    <dimen name="cardview_elevation">8dp</dimen>
+    <dimen name="cardview_padding">8dp</dimen>
+    <dimen name="card_text_size">16sp</dimen>
+
+    <dimen name="dialog_filter_width">250dp</dimen>
+    <dimen name="dialog_filter_radio_width">200dp</dimen>
+    <dimen name="dialog_filter_padding">12dp</dimen>
+    <dimen name="dialog_filter_text_size">18sp</dimen>
+
+</resources>

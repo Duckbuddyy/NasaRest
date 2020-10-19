@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/primaryColor"
+    app:cardCornerRadius="@dimen/cardview_border_radius">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dialog_filter_padding">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/text_view_details_earth_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/details_earth_date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_view" />
+
+            <TextView
+                android:id="@+id/text_view_details_rover_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/details_rover_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_details_earth_date" />
+
+            <TextView
+                android:id="@+id/text_view_details_rover_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/details_rover_status"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_details_rover_name" />
+
+            <TextView
+                android:id="@+id/text_view_details_rover_launch_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/details_rover_launch_date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_details_rover_status" />
+
+            <TextView
+                android:id="@+id/text_view_details_rover_landing_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/details_rover_landing_date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_details_rover_launch_date" />
+
+            <TextView
+                android:id="@+id/text_view_earth_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="tv_1"
+                app:layout_constraintEnd_toEndOf="@+id/image_view"
+                app:layout_constraintTop_toBottomOf="@+id/image_view" />
+
+            <TextView
+                android:id="@+id/text_view_rover_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="tv_1"
+                app:layout_constraintEnd_toEndOf="@+id/image_view"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_earth_date" />
+
+            <TextView
+                android:id="@+id/text_view_rover_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="tv_1"
+                app:layout_constraintEnd_toEndOf="@+id/image_view"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_rover_name" />
+
+            <TextView
+                android:id="@+id/text_view_rover_launch_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="tv_1"
+                app:layout_constraintEnd_toEndOf="@+id/image_view"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_rover_status" />
+
+            <TextView
+                android:id="@+id/text_view_rover_landing_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="tv_1"
+                app:layout_constraintEnd_toEndOf="@+id/image_view"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_rover_launch_date" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
+

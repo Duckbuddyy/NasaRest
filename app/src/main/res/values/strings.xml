@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NasaRest</string>
+    <string name="button_retry">Retry</string>
+    <string name="text_view_retry">Could not get data from server</string>
+    <string name="text_view_empty">No results found on server</string>
+    <string name="text_view_error">Results could not be loaded</string>
+    <string name="menu_item_filter">Filter</string>
+    <string name="camera_filter">Camera Type</string>
+    <string name="button_filter">Filter</string>
+
+    <string name="camera_all">ALL</string>
+    <string name="camera_fhaz">FHAZ</string>
+    <string name="camera_rhaz">RHAZ</string>
+    <string name="camera_mast">MAST</string>
+    <string name="camera_chemcam">CHEMCAM</string>
+    <string name="camera_mahli">MAHLI</string>
+    <string name="camera_mardi">MARDI</string>
+    <string name="camera_navcam">NAVCAM</string>
+    <string name="camera_pancam">PANCAM</string>
+    <string name="camera_minities">MINITES</string>
+
+    <string name="rover_curiosity">CURIOSITY</string>
+    <string name="rover_opportunity">OPPOTURNITY</string>
+    <string name="rover_spirit">SPIRIT</string>
+
+    <string name="details_earth_date">Image Taken</string>
+    <string name="details_rover_name">Rover Name</string>
+    <string name="details_rover_status">Rover Status</string>
+    <string name="details_rover_launch_date">Rover Launched</string>
+    <string name="details_rover_landing_date">Rover Landed</string>
+
+</resources>
